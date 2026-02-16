@@ -10,10 +10,7 @@
 - **Impact Factor:** *******9.56
 
 ### Abstract
-This paper addresses the challenge of identifying Input/Output bottlenecks in complex distributed data pipelines where isolated observability metrics provide limited insight. 
-It highlights how single-modal monitoring fails to accurately localize performance issues caused by cross-layer interactions in dynamic, heterogeneous environments. The proposed 
-Multimodal Observability framework unifies metrics, logs, and traces to enable correlated, cross-layer analysis of Input/Output behavior. By aligning low-level signals with 
-execution paths, the approach improves bottleneck detection accuracy and reduces misdiagnosis in large-scale pipelines.
+Distributed systems achieve scalability through partitioned data placement across multiple nodes, but as clusters grow, requests often traverse multiple intermediate machines. This multi‑hop communication introduces routing overhead, longer paths, and increased network delay. Each additional hop adds propagation time, congestion, and reduces efficiency, while static placement fails to adapt to evolving access patterns. The accumulation of unnecessary traversals increases latency variability and limits predictable performance. Minimizing hop distance between clients and data is therefore critical for improving communication efficiency and scalability in distributed architectures.
 
 ## Key Contributions
 - **Hop Count Analysis:**
@@ -49,16 +46,16 @@ execution paths, the approach improves bottleneck detection accuracy and reduces
 
 ### Experimental Results (Summary)
 
-  | Nodes | Baseline Request Completion Time (ms) | Multimodal Request Completion Tim (ms) | Improvment (%)  |
-  |-------|---------------------------------------| ---------------------------------------| ----------------|
-  | 3     |  120                                  | 95                                     | 20.83           |
-  | 5     |  145                                  | 115                                    | 20.69           |
-  | 7     |  175                                  | 140                                    | 20.00           |
-  | 9     |  210                                  | 165                                    | 21.43           |
-  | 11    |  250                                  | 195                                    | 22.00           |
+  | Nodes | Static Placement Hops | Locality aware placement hops | Improvment (%)|
+  |-------|-----------------------| ------------------------------| --------------|
+  | 3     |  3.2                  | 1.7                           | 47            |
+  | 5     |  4.0                  | 2.0                           | 50            |
+  | 7     |  4.8                  | 2.3                           | 52            |
+  | 9     |  5.6                  | 2.6                           | 54            |
+  | 11    |  6.3                  | 2.9                           | 54            |
 
 ### Citation
-Multimodal Observability for Input Output Bottleneck Detection
+Data Locality Optimization for Low Latency Distributed Systems
 * Arunkumar Sambandam
 * ***********************************International Journal of Leading Research Publication 
 * ISSN E-ISSN: *****************************2582-8010
