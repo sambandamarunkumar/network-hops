@@ -3,11 +3,11 @@
 
 ### Paper Information
 - **Author(s):** Arunkumar Sambandam
-- **Published In:** *********************************************International Journal of Leading Research Publication (IJLRP)
-- **Publication Date:** ******Aug 2021
-- **ISSN:** E-ISSN: **********2582-8010
+- **Published In:** Journal of Advances in Developmental Research(IJAIDR)
+- **Publication Date:** Sept 1, 2021
+- **ISSN:** E-ISSN: 0976-4844
 - **DOI:**
-- **Impact Factor:** *******9.56
+- **Impact Factor:**9.71
 
 ### Abstract
 Distributed systems achieve scalability through partitioned data placement across multiple nodes, but as clusters grow, requests often traverse multiple intermediate machines. This multi‑hop communication introduces routing overhead, longer paths, and increased network delay. Each additional hop adds propagation time, congestion, and reduces efficiency, while static placement fails to adapt to evolving access patterns. The accumulation of unnecessary traversals increases latency variability and limits predictable performance. Minimizing hop distance between clients and data is therefore critical for improving communication efficiency and scalability in distributed architectures.
@@ -57,14 +57,14 @@ Distributed systems achieve scalability through partitioned data placement acros
 ### Citation
 Data Locality Optimization for Low Latency Distributed Systems
 * Arunkumar Sambandam
-* ***********************************International Journal of Leading Research Publication 
-* ISSN E-ISSN: *****************************2582-8010
+* Journal of Advances in Developmental Research(IJAIDR)
+* ISSN E-ISSN: E-ISSN: 0976-4844
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijlrp.com*****************/ \
+[https://www.ijlrp.com*****************/ \](https://www.ijaidr.com/research-paper.php?id=1707)
 **Author Contact** \
-**LinkedIn**: https://www.linkedin.com/**** | **Email**: arunkumar.sambandam@yahoo.com
+**LinkedIn**: linkedin.com/in/arunkumar-sambandam-9b769b6 | **Email**: arunkumar.sambandam@yahoo.com
 
 
 
