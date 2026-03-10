@@ -62,7 +62,7 @@ Data Locality Optimization for Low Latency Distributed Systems
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-[https://www.ijlrp.com*****************/ \](https://www.ijaidr.com/research-paper.php?id=1707)
+[https://www.ijlrp.com*****************/ \](https://www.ijaidr.com/research-paper.php?id=1707) \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/arunkumar-sambandam-9b769b6 | **Email**: arunkumar.sambandam@yahoo.com
 
