@@ -7,7 +7,7 @@
 - **Publication Date:** Sept 1, 2021
 - **ISSN:** E-ISSN: 0976-4844
 - **DOI:**
-- **Impact Factor:**9.71
+- **Impact Factor:** 9.71
 
 ### Abstract
 Distributed systems achieve scalability through partitioned data placement across multiple nodes, but as clusters grow, requests often traverse multiple intermediate machines. This multi‑hop communication introduces routing overhead, longer paths, and increased network delay. Each additional hop adds propagation time, congestion, and reduces efficiency, while static placement fails to adapt to evolving access patterns. The accumulation of unnecessary traversals increases latency variability and limits predictable performance. Minimizing hop distance between clients and data is therefore critical for improving communication efficiency and scalability in distributed architectures.
